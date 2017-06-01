@@ -18,8 +18,8 @@
           <button class="btn btn-primary btn-sm navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="glyphicon glyphicon-chevron-down"></span></button>
           <div id="logo">
-            <a href='.'>
-              <h4>The Big Lebowski</h4>
+            <a href='index.html'>
+              <h4 style="color: white">The Big Lebowski</h4>
             </a>
           </div>
         </div>
@@ -48,7 +48,7 @@
           </div>
 
           <div class="form-group">
-            <label class="control-lable col-md-2 row">Favorite</label>
+            <label class="control-label col-md-2 row">Favorite</label>
             <div class="col-md-10">
               <div class="btn-group btn-group-sm" data-toggle="buttons">
                 <label class="btn btn-success"><input type="radio">The Dude</label>
@@ -57,7 +57,7 @@
 
                 <div class="btn-group btn-group-sm">
                   <button class="btn btn-success">Other</button>
-                  <button class="btn btn-success" data-toggle="dropdown"><span class="caret"></span></button>
+                  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
                   <ul class="dropdown-menu">
                     <li><a href="#" tabindex="-1">Walter</a></li>
                     <li><a href="#" tabindex="-1">Bunny</a></li>
@@ -73,9 +73,9 @@
             <label>Reason</label>
             <div class="dropdown">
                 <button class="btn btn-success" id="pickButton">Pick One...</button>
-                <button class="btn btn-success" data-toggle="dropdown">
+                <label class="btn btn-success" data-toggle="dropdown">
                   <span class="caret"></span>
-                </button>
+                </label>
                 <ul class="dropdown-menu" id="reasonDropdown">
                   <li><a href="#" tabindex="-1">Adoration</a>
                   </li>
@@ -116,6 +116,8 @@
   </div>
 
   <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/site.js"></script>
 </body>
 
 </html>
